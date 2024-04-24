@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    <url>
+      <loc>http://localhost:1313/docs/guides/customization/</loc>
+      <lastmod>2024-04-22T13:08:37+01:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="pt-br"
+                  href="http://localhost:1313/pt-br/docs/guides/customiza%C3%A7%C3%A3o/"
+                  />
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="en"
+                  href="http://localhost:1313/docs/guides/customization/"
+                  />
+    </url>
+    </urlset>

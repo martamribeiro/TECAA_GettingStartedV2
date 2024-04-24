@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guides on My Docs</title>
+    <link>http://localhost:1313/docs/guides/</link>
+    <description>Recent content in Guides on My Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright (c) 2020-2024 Hyas</copyright>
+    <lastBuildDate>Mon, 22 Apr 2024 13:08:37 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Customization</title>
+      <link>http://localhost:1313/docs/guides/customization/</link>
+      <pubDate>Mon, 22 Apr 2024 13:08:37 +0100</pubDate>
+      <guid>http://localhost:1313/docs/guides/customization/</guid>
+      <description>This page is dedicated to show you the customization power of Doks. All of the features down below were used in the development of this website.</description>
+    </item>
+  </channel>
+</rss>

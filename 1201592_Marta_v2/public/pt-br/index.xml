@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bem-vindo ao Doks on My Docs</title>
+    <link>http://localhost:1313/pt-br/</link>
+    <description>Recent content in Bem-vindo ao Doks on My Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-BR</language>
+    <copyright>Copyright (c) 2020-2024 Hyas</copyright>
+    <lastBuildDate>Tue, 23 Apr 2024 15:51:55 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/pt-br/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sobre</title>
+      <link>http://localhost:1313/pt-br/docs/starthere/sobre/</link>
+      <pubDate>Mon, 22 Apr 2024 12:45:18 +0100</pubDate>
+      <guid>http://localhost:1313/pt-br/docs/starthere/sobre/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Por Onde Começar</title>
+      <link>http://localhost:1313/pt-br/docs/starthere/por-onde-come%C3%A7ar/</link>
+      <pubDate>Tue, 23 Apr 2024 15:51:55 +0100</pubDate>
+      <guid>http://localhost:1313/pt-br/docs/starthere/por-onde-come%C3%A7ar/</guid>
+      <description>Nesta página, aprenderá os primeiros passos para criar seu primeiro site com o Hugo, usando o tema Doks.&#xA;Instale o Hugo e Go Hugo Comece instalando o Hugo no seu dispositivo.</description>
+    </item>
+    <item>
+      <title>Implantação</title>
+      <link>http://localhost:1313/pt-br/docs/starthere/implanta%C3%A7%C3%A3o/</link>
+      <pubDate>Mon, 22 Apr 2024 12:48:55 +0100</pubDate>
+      <guid>http://localhost:1313/pt-br/docs/starthere/implanta%C3%A7%C3%A3o/</guid>
+      <description>Pronto para construir e implantar seu site Doks? Siga um dos guias disponíveis no HyasDocs para diferentes serviços de implantação ou dê scroll para baixo para obter orientações gerais sobre como implantar um site Hyas.</description>
+    </item>
+    <item>
+      <title>Customização</title>
+      <link>http://localhost:1313/pt-br/docs/guides/customiza%C3%A7%C3%A3o/</link>
+      <pubDate>Thu, 18 Apr 2024 11:33:24 +0100</pubDate>
+      <guid>http://localhost:1313/pt-br/docs/guides/customiza%C3%A7%C3%A3o/</guid>
+      <description>Esta página é dedicada a mostrar-te o poder da personalização do Doks. Todas as funcionalidades abaixo foram usadas no desenvolvimento deste site.</description>
+    </item>
+    <item>
+      <title>Política de Privacidade</title>
+      <link>http://localhost:1313/pt-br/privacy/</link>
+      <pubDate>Thu, 07 Sep 2023 17:19:07 +0200</pubDate>
+      <guid>http://localhost:1313/pt-br/privacy/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
