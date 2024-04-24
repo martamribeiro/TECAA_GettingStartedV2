@@ -1,0 +1,1199 @@
+<!doctype html>
+<html lang="pt-BR" data-bs-theme="auto">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="preload" href="http://localhost:1313/fonts/vendor/jost/jost-v4-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/vendor/jost/jost-v4-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/vendor/jost/jost-v4-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<script 
+  src="/js/color-mode.f4dceae2c5e850920845103cfc5862a5802325e420be465f686a3a86369b9226.js"
+  integrity="sha256-9Nzq4sXoUJIIRRA8/FhipYAjJeQgvkZfaGo6hjabkiY=">
+</script>
+
+
+<link rel="stylesheet" href="/main.b606eacbc77387c2382a9052a4ca3a52e3504960526fc0f6629ca7bf6ee09eeaac79d7de1e0abebb570c014e30fa25cc98a453d7e7dd7c7a8f7fe69f62f05b4c.css" integrity="sha512-tgbqy8dzh8I4KpBSpMo6UuNQSWBSb8D2Ypynv27gnuqsedfeHgq&#43;u1cMAU4w&#43;iXMmKRT1&#43;fdfHqPf&#43;afYvBbTA==" crossorigin="anonymous">
+<noscript><style>img.lazyload { display: none; }</style></noscript><base href="http://localhost:1313/pt-br/docs/starthere/implanta%C3%A7%C3%A3o/">
+  <link rel="canonical" href="http://localhost:1313/pt-br/docs/starthere/implanta%C3%A7%C3%A3o/">
+    <link rel="alternate" hreflang="pt-br" href="http://localhost:1313/pt-br/docs/starthere/implanta%C3%A7%C3%A3o/">
+    <link rel="alternate" hreflang="en" href="http://localhost:1313/docs/starthere/deployment/">
+      <link rel="alternate" hreflang="x-default" href="http://localhost:1313/docs/starthere/deployment/">
+<title>Implantação  |  My Docs</title>
+<meta name="description" content="Página de Implantação para orientar os leitores sobre como implantar com sucesso o seu site Hugo.">
+
+    
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    
+      <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    
+      <link
+        rel="apple-touch-icon"
+        href="/apple-touch-icon.png"
+        sizes="180x180"
+        type="image/png"
+      >
+      <link
+        rel="icon"
+        href="/favicon-192x192.png"
+        sizes="192x192"
+        type="image/png"
+      >
+      <link
+        rel="icon"
+        href="/favicon-512x512.png"
+        sizes="512x512"
+        type="image/png"
+      >
+<link rel="manifest" href="/manifest.webmanifest">
+<meta property="og:title" content="Implantação">
+<meta property="og:description" content="Página de Implantação para orientar os leitores sobre como implantar com sucesso o seu site Hugo.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://localhost:1313/pt-br/docs/starthere/implanta%C3%A7%C3%A3o/"><meta property="og:image" content="http://localhost:1313/cover.png"><meta property="article:section" content="docs">
+<meta property="article:published_time" content="2024-04-22T12:48:55+01:00">
+<meta property="article:modified_time" content="2024-04-22T12:48:55+01:00"><meta property="og:site_name" content="My Docs">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/cover.png"><meta name="twitter:title" content="Implantação">
+<meta name="twitter:description" content="Página de Implantação para orientar os leitores sobre como implantar com sucesso o seu site Hugo.">
+<meta name="twitter:site" content="@getdoks">
+
+    
+    
+    <script type="application/ld+json">
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/pt-br/",
+       "name": "Bem Vindo Ao Doks",
+       "position": 1
+     },
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/pt-br/docs/",
+       "name": "Docs",
+       "position": 2
+     },
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/pt-br/docs/starthere/",
+       "name": "Comece Aqui",
+       "position": 3
+     },
+     {
+       "@type": "ListItem",
+       "name": "Implantação",
+       "position": 4
+     }
+   ]
+ }
+</script>
+
+
+
+
+
+</head>
+
+  
+  <body class="single section docs" data-bs-spy="scroll" data-bs-target="#toc" data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll="true" tabindex="0">
+    <div class="sticky-top">
+<header class="navbar navbar-expand-lg">
+  <div class="container-lg">
+  
+    <a class="navbar-brand me-auto me-lg-3" href="/pt-br/">My Docs</a>
+
+    
+    
+    <button type="button" id="searchToggleMobile" class="btn btn-link nav-link mx-2 d-lg-none" aria-label="Search website">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <circle cx="10" cy="10" r="7"></circle>
+        <line x1="21" y1="21" x2="15" y2="15"></line>
+      </svg>
+    </button>
+    
+    <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection" aria-label="Open section navigation menu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+        <path d="M12 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+        <path d="M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+      </svg>
+    </button>
+    <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection" aria-labelledby="offcanvasNavSectionLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavSectionLabel">Docs</h5>
+        <button type="button" class="btn btn-link nav-link p-0 ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M18 6l-12 12"></path>
+            <path d="M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <aside class="doks-sidebar mt-n3">
+          <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+            
+  
+    
+<nav class="section-nav docs-links">
+  <ul class="list-unstyled">
+
+  <li>
+    <details open open>
+      <summary>Comece Aqui</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li>
+      <a href="/pt-br/docs/starthere/sobre/">Sobre</a>
+  </li>
+
+  <li>
+      <a href="/pt-br/docs/starthere/por-onde-come%C3%A7ar/">Por Onde Começar</a>
+  </li>
+
+  <li class="active" >
+      <a aria-current="page" href="/pt-br/docs/starthere/implanta%C3%A7%C3%A3o/">Implantação</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+
+  <li>
+    <details open>
+      <summary>Guias</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li>
+      <a href="/pt-br/docs/guides/customiza%C3%A7%C3%A3o/">Customização</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+  </ul>
+</nav>
+
+  
+
+          </nav>
+        </aside>
+      </div>
+    </div>
+    
+    <button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain" aria-label="Open main navigation menu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <line x1="4" y1="8" x2="20" y2="8"></line>
+        <line x1="4" y1="16" x2="20" y2="16"></line>
+      </svg>
+    </button>
+
+    
+    <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain" aria-labelledby="offcanvasNavMainLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavMainLabel">My Docs</h5>
+        <button type="button" class="btn btn-link nav-link p-0 ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M18 6l-12 12"></path>
+            <path d="M6 6l12 12"></path>
+         </svg>
+        </button>
+      </div>
+      
+      <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+        <ul class="navbar-nav flex-grow-1"><li class="nav-item">
+                <a class="nav-link active" href="http://localhost:1313/pt-br/docs/starthere/por-onde-come%C3%A7ar/" aria-current="true">Docs</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost:1313/pt-br/blog/">Blog</a>
+              </li>
+            </ul>
+
+        
+        
+        <button type="button" id="searchToggleDesktop" class="btn btn-link nav-link p-2 d-none d-lg-block" aria-label="Search website">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <circle cx="10" cy="10" r="7"></circle>
+            <line x1="21" y1="21" x2="15" y2="15"></line>
+          </svg>
+        </button>
+        
+        <div class="dropdown mt-1 order-lg-2">
+          <button class="btn btn-dropdown dropdown-toggle" id="doks-languages" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+            <span class="dropdown-caret">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M4 5h7"></path>
+                <path d="M9 3v2c0 4.418 -2.239 8 -5 8"></path>
+                <path d="M5 9c0 2.144 2.952 3.908 6.7 4"></path>
+                <path d="M12 20l4 -9l4 9"></path>
+                <path d="M19.1 18h-6.2"></path>
+              </svg>
+              <span id="doks-language-current">Português</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M6 9l6 6l6 -6"></path>
+              </svg>
+            </span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-lg-end me-lg-2 shadow rounded border-0" aria-labelledby="doks-languages">
+
+            <li><span class="dropdown-item current" aria-current="true">Português</span></li>
+
+            <li><hr class="dropdown-divider"></li>
+
+            
+              <li><a class="dropdown-item " rel="alternate" href="/docs/starthere/deployment/" hreflang="en" lang="en">English</a></li>
+            
+              
+          </ul>
+        </div>
+        
+        
+        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1" type="button" aria-label="Toggle theme">
+          <svg data-bs-theme-value="dark" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+          </svg>
+          <svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0m-5 0h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"></path>
+          </svg>
+        </button>
+        
+        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+          <li class="nav-item">
+              <a class="nav-link social-link" href="https://github.com/gethyas/doks"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg><small class="ms-2 visually-hidden">GitHub</small></a>
+            </li>
+          </ul>
+        
+        </div>
+    </div>
+
+    
+    </div>
+</header>
+</div>
+
+<div class="modal" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 visually-hidden" id="searchModalLabel">Search</h1>
+        <button type="button" class="btn-close visually-hidden" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="search-input flex-grow-1 d-none">
+          <form id="search-form" class="search-form" action="#" method="post" accept-charset="UTF-8" role="search">
+            <label for="query" class="visually-hidden">Search</label>
+            <div class="d-flex">
+              <input type="search" id="query" name="query" class="search-text form-control form-control-lg" placeholder="Search" aria-label="Search" maxlength="128" autocomplete="off">
+              <button type="button" class="btn btn-link text-decoration-none px-0 ms-3 d-md-none" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="modal-body">
+        <p class="search-loading status message d-none mt-3 text-center">Loading search index…</p>
+        <p class="search-no-recent message d-none mt-3 text-center">No recent searches</p>
+        <p class="search-no-results message d-none mt-3 text-center">No results for "<strong><span class="query-no-results">Query here</span></strong>"</p>
+        <div id="searchResults" class="search-results"></div>
+        <template>
+          <article class="search-result list-view">
+            <div class="card my-3">
+              <div class="card-body">
+                <header>
+                  <h2 class="h5 title title-submitted mb-0"><a class="stretched-link text-decoration-none text-reset" href="#">Title here</a></h2>
+                  <div class="submitted d-none"><time class="created-date">Date here</time></div>
+                </header>
+                <div class="content">Summary here</div>
+              </div>
+            </div>
+          </article>
+        </template>
+      </div>
+      <div class="modal-footer">
+        <ul class="list-inline me-auto d-none d-md-block">
+          <li class="list-inline-item"><kbd class="me-2"><svg width="15" height="15" aria-label="Enter key" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M12 3.53088v3c0 1-1 2-2 2H4M7 11.53088l-3-3 3-3"></path></g></svg></kbd><span class="DocSearch-Label">to select</span></li>
+          <li class="list-inline-item"><kbd class="me-2"><svg width="15" height="15" aria-label="Arrow down" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M7.5 3.5v8M10.5 8.5l-3 3-3-3"></path></g></svg></kbd><kbd class="me-2"><svg width="15" height="15" aria-label="Arrow up" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M7.5 11.5v-8M10.5 6.5l-3-3-3 3"></path></g></svg></kbd><span class="DocSearch-Label">to navigate</span></li>
+          <li class="list-inline-item"><kbd class="me-2"><svg width="15" height="15" aria-label="Escape key" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M13.6167 8.936c-.1065.3583-.6883.962-1.4875.962-.7993 0-1.653-.9165-1.653-2.1258v-.5678c0-1.2548.7896-2.1016 1.653-2.1016.8634 0 1.3601.4778 1.4875 1.0724M9 6c-.1352-.4735-.7506-.9219-1.46-.8972-.7092.0246-1.344.57-1.344 1.2166s.4198.8812 1.3445.9805C8.465 7.3992 8.968 7.9337 9 8.5c.032.5663-.454 1.398-1.4595 1.398C6.6593 9.898 6 9 5.963 8.4851m-1.4748.5368c-.2635.5941-.8099.876-1.5443.876s-1.7073-.6248-1.7073-2.204v-.4603c0-1.0416.721-2.131 1.7073-2.131.9864 0 1.6425 1.031 1.5443 2.2492h-2.956"></path></g></svg></kbd><span class="DocSearch-Label">to close</span></li>
+        </ul>
+        <p class="d-md-none">Search by <a class="text-decoration-none" href="https://github.com/nextapps-de/flexsearch">FlexSearch</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="wrap container-lg" role="document">
+      <div class="content">
+      
+        
+	<div class="row flex-xl-nowrap">
+		<div class="col-lg-5 col-xl-4 docs-sidebar d-none d-lg-block">
+			
+  
+    
+<nav class="section-nav docs-links">
+  <ul class="list-unstyled">
+
+  <li>
+    <details open open>
+      <summary>Comece Aqui</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li>
+      <a href="/pt-br/docs/starthere/sobre/">Sobre</a>
+  </li>
+
+  <li>
+      <a href="/pt-br/docs/starthere/por-onde-come%C3%A7ar/">Por Onde Começar</a>
+  </li>
+
+  <li class="active" >
+      <a aria-current="page" href="/pt-br/docs/starthere/implanta%C3%A7%C3%A3o/">Implantação</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+
+  <li>
+    <details open>
+      <summary>Guias</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li>
+      <a href="/pt-br/docs/guides/customiza%C3%A7%C3%A3o/">Customização</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+  </ul>
+</nav>
+
+  
+
+		</div>
+		
+		<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+			<div class="page-links">
+  <h3>On this page</h3>
+    <nav id="toc">
+  <ul>
+    <li><a href="#section-1">Guias de Implantação</a></li>
+    <li><a href="#section-2">Opções de Implantação Rápida</a>
+      <ul>
+        <li><a href="#section-2.1">Interface do Website</a></li>
+        <li><a href="#section-2.2">Implantação via CLI</a></li>
+      </ul>
+    </li>
+    <li><a href="#section-3">Construindo Seu Site Localmente</a></li>
+    <li><a href="#section-4">Visualizando Seu Site Localmente</a></li>
+  </ul>
+</nav>
+</div>
+
+		</nav>
+		<main class="docs-content col-lg-11 col-xl-9">
+		
+			<h1>Implantação</h1>
+			
+			<nav class="toc-mobile d-xl-none" aria-label="Quaternary navigation">
+				<details>
+    <summary>On this page</summary>
+    <div class="page-links">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#section-1">Guias de Implantação</a></li>
+    <li><a href="#section-2">Opções de Implantação Rápida</a>
+      <ul>
+        <li><a href="#section-2.1">Interface do Website</a></li>
+        <li><a href="#section-2.2">Implantação via CLI</a></li>
+      </ul>
+    </li>
+    <li><a href="#section-3">Construindo Seu Site Localmente</a></li>
+    <li><a href="#section-4">Visualizando Seu Site Localmente</a></li>
+  </ul>
+</nav>
+    </div>
+  </details>
+
+			</nav>
+			<hr>
+<p><strong>Pronto para construir e implantar seu site Doks?</strong> Siga um dos guias disponíveis no HyasDocs para diferentes serviços de implantação ou dê scroll para baixo para obter orientações gerais sobre como implantar um site Hyas.</p>
+<h2 id="section-1">Guias de Implantação<a href="#section-1" class="anchor" aria-hidden="true">#</a> </h2>
+<div class="card-nav d-flex flex-column flex-sm-row">
+  
+
+  
+    <div class="card text-end w-100">
+      <div class="card-body d-flex">
+        <div class="d-flex flex-column me-auto text-start">
+          <h5 class="card-title my-0"><a href="https://docs.gethyas.com/guides/deploy/netlify/" target="_blank" class="stretched-link text-reset text-decoration-none">Netlify</a></h5>
+          
+        </div>
+        <div class="d-flex flex-column justify-content-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M5 12l14 0"></path>
+            <path d="M13 18l6 -6"></path>
+            <path d="M13 6l6 6"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+  
+    <div class="card text-end w-100">
+      <div class="card-body d-flex">
+        <div class="d-flex flex-column me-auto text-start">
+          <h5 class="card-title my-0"><a href="https://docs.gethyas.com/guides/deploy/vercel/" target="_blank" class="stretched-link text-reset text-decoration-none">Vercel</a></h5>
+          
+        </div>
+        <div class="d-flex flex-column justify-content-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M5 12l14 0"></path>
+            <path d="M13 18l6 -6"></path>
+            <path d="M13 6l6 6"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+  
+    <div class="card text-end w-100">
+      <div class="card-body d-flex">
+        <div class="d-flex flex-column me-auto text-start">
+          <h5 class="card-title my-0"><a href="https://docs.gethyas.com/guides/deploy/github/" target="_blank" class="stretched-link text-reset text-decoration-none">GitHub Pages</a></h5>
+          
+        </div>
+        <div class="d-flex flex-column justify-content-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M5 12l14 0"></path>
+            <path d="M13 18l6 -6"></path>
+            <path d="M13 6l6 6"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+  
+    <div class="card text-end w-100">
+      <div class="card-body d-flex">
+        <div class="d-flex flex-column me-auto text-start">
+          <h5 class="card-title my-0"><a href="https://docs.gethyas.com/guides/deploy/gitlab/" target="_blank" class="stretched-link text-reset text-decoration-none">GitLab Pages</a></h5>
+          
+        </div>
+        <div class="d-flex flex-column justify-content-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M5 12l14 0"></path>
+            <path d="M13 18l6 -6"></path>
+            <path d="M13 6l6 6"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+
+</div>
+
+<div class="card-nav d-flex flex-column flex-sm-row">
+  
+
+  
+    <div class="card text-end w-100">
+      <div class="card-body d-flex">
+        <div class="d-flex flex-column me-auto text-start">
+          <h5 class="card-title my-0"><a href="https://docs.gethyas.com/guides/deploy/cloudflare/" target="_blank" class="stretched-link text-reset text-decoration-none">Cloudflare Pages</a></h5>
+          
+        </div>
+        <div class="d-flex flex-column justify-content-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M5 12l14 0"></path>
+            <path d="M13 18l6 -6"></path>
+            <path d="M13 6l6 6"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+  
+    <div class="card text-end w-100">
+      <div class="card-body d-flex">
+        <div class="d-flex flex-column me-auto text-start">
+          <h5 class="card-title my-0"><a href="https://docs.gethyas.com/guides/deploy/google-firebase/" target="_blank" class="stretched-link text-reset text-decoration-none">Firebase Hosting</a></h5>
+          
+        </div>
+        <div class="d-flex flex-column justify-content-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M5 12l14 0"></path>
+            <path d="M13 18l6 -6"></path>
+            <path d="M13 6l6 6"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+  
+    <div class="card text-end w-100">
+      <div class="card-body d-flex">
+        <div class="d-flex flex-column me-auto text-start">
+          <h5 class="card-title my-0"><a href="https://docs.gethyas.com/guides/deploy/microsoft-azure/" target="_blank" class="stretched-link text-reset text-decoration-none">Microsoft Azure</a></h5>
+          
+        </div>
+        <div class="d-flex flex-column justify-content-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M5 12l14 0"></path>
+            <path d="M13 18l6 -6"></path>
+            <path d="M13 6l6 6"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+  
+    <div class="card text-end w-100">
+      <div class="card-body d-flex">
+        <div class="d-flex flex-column me-auto text-start">
+          <h5 class="card-title my-0"><a href="https://docs.gethyas.com/guides/deploy/render/" target="_blank" class="stretched-link text-reset text-decoration-none">Render</a></h5>
+          
+        </div>
+        <div class="d-flex flex-column justify-content-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M5 12l14 0"></path>
+            <path d="M13 18l6 -6"></path>
+            <path d="M13 6l6 6"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+
+</div>
+
+<h2 id="section-2">Opções de Implantação Rápida<a href="#section-2" class="anchor" aria-hidden="true">#</a> </h2>
+<p>Você pode construir e implantar um site Hyas (incluindo um tema Doks) em vários hosts rapidamente usando o painel de controle do site ou um CLI.</p>
+<h3 id="section-2.1">Interface do Website<a href="#section-2.1" class="anchor" aria-hidden="true">#</a> </h3>
+<p>Uma maneira rápida de implantar o seu site é conectar o repositório Git online do seu projeto Hyas (por exemplo, GitHub, GitLab, Bitbucket) a um provedor de hospedagem (host) e aproveitar a implantação contínua usando Git.</p>
+<p>Estas plataformas de hospedagem detectam automaticamente os envios para o repositório de origem do seu projeto Hyas, constroem seu site e o implantam na web em um URL personalizado ou em seu domínio pessoal. Frequentemente, configurar uma implantação nestas plataformas seguirá etapas semelhantes às seguintes:</p>
+<ol>
+<li>
+<p>Adicione seu repositório a um provedor Git online (por exemplo, no GitHub, GitLab, Bitbucket).</p>
+</li>
+<li>
+<p>Escolha um host que suporte <strong>implantação contínua</strong> (e.g. <a href="https://docs.gethyas.com/guides/deploy/netlify/">Netlify</a> ou <a href="https://docs.gethyas.com/guides/deploy/vercel/">Vercel</a>) e importe seu repositório Git como um novo site/projeto. <br>
+<br>Muitos hosts comuns reconhecerão seu projeto como um site Hyas e devem escolher as configurações apropriadas para construir e implantar seu site, como mostrado abaixo. (Caso contrário, essas configurações podem ser alteradas.)</p>
+</li>
+</ol>
+<div class="callout callout-note d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
+  <svg class="info-circle svg-inline callout-icon me-2 mb-3"  xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1018 0A9 9 0 003 12"/><path d="M12 9h.01"/><path d="M11 12h1v4h1"/></svg>
+  <div class="callout-content">
+    <div class="callout-title">
+        <p>Configurações de Implantação</p>
+
+      </div>
+    <div class="callout-body">
+      <ul>
+<li><strong>Comando de Construção:</strong> <code>hyas build</code> ou <code>npm run build</code></li>
+<li><strong>Diretório de Publicação:</strong> <code>public</code></li>
+</ul>
+
+    </div>
+  </div>
+</div>
+
+<ol start="3">
+<li>Clique em &ldquo;Implantar&rdquo; e seu novo site será criado em um URL único para esse host (e.g. <code>new-hyas-site.netlify.app</code>).</li>
+</ol>
+<p><br>O host será automaticamente configurado para observar a branch principal do seu provedor Git em busca de alterações e reconstruir e republicar seu site a cada novo commit. Essas configurações geralmente podem ser configuradas no painel de controle do seu provedor de hospedagem.</p>
+<h3 id="section-2.2">Implantação via CLI<a href="#section-2.2" class="anchor" aria-hidden="true">#</a> </h3>
+<p>Alguns hosts terão sua própria interface de linha de comando (CLI) que você pode instalar globalmente em sua máquina usando o npm. Geralmente, usar uma CLI para implantar se parece com o seguinte:</p>
+<ol>
+<li>
+<p>Instale a CLI do seu host globalmente, por exemplo:
+
+
+
+
+
+
+<nav>
+  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+  <button data-toggle-tab="npm" class="nav-link active" id="tabs-cli-host-global-0-tab" data-bs-toggle="tab" data-bs-target="#tabs-cli-host-global-0" type="button" role="tab" aria-controls="tabs-cli-host-global-0" aria-selected="true">
+      npm</button>
+  <button data-toggle-tab="pnpm" class="nav-link" id="tabs-cli-host-global-1-tab" data-bs-toggle="tab" data-bs-target="#tabs-cli-host-global-1" type="button" role="tab" aria-controls="tabs-cli-host-global-1" aria-selected="true">
+      pnpm</button>
+  <button data-toggle-tab="yarn" class="nav-link" id="tabs-cli-host-global-2-tab" data-bs-toggle="tab" data-bs-target="#tabs-cli-host-global-2" type="button" role="tab" aria-controls="tabs-cli-host-global-2" aria-selected="true">
+      Yarn</button>
+  </div>
+</nav>
+
+<div class="tab-content" id="nav-tabContent">
+  <div data-pane="npm" class="tab-pane fade show active" id="tabs-cli-host-global-0" role="tabpanel" aria-labelledby="tabs-cli-host-global-0-tab" tabindex="0">
+      
+
+
+<div class="expressive-code">
+  <figure class="frame is-terminal not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">npm install --global netlify-cli</span></span></code></pre></div>
+  </figure>
+</div>
+</div>
+  <div data-pane="pnpm" class="tab-pane fade" id="tabs-cli-host-global-1" role="tabpanel" aria-labelledby="tabs-cli-host-global-1-tab" tabindex="0">
+      
+
+
+<div class="expressive-code">
+  <figure class="frame is-terminal not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pnpm add --global netlify-cli</span></span></code></pre></div>
+  </figure>
+</div>
+</div>
+  <div data-pane="yarn" class="tab-pane fade" id="tabs-cli-host-global-2" role="tabpanel" aria-labelledby="tabs-cli-host-global-2-tab" tabindex="0">
+      
+
+
+<div class="expressive-code">
+  <figure class="frame is-terminal not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yarn global add netlify-cli</span></span></code></pre></div>
+  </figure>
+</div>
+</div>
+  </div>
+</p>
+</li>
+<li>
+<p>Execute a CLI e siga quaisquer instruções para autorização, configuração etc.</p>
+</li>
+<li>
+<p>Construa seu site e implante no seu host<br>
+<br>Muitos hosts comuns irão construir e implantar seu site para você. Eles geralmente reconhecerão seu projeto como um site Hyas e devem escolher as configurações apropriadas de configuração para construir e implantar conforme mostrado abaixo. (Se não, essas configurações podem ser alteradas.)<br>
+<div class="callout callout-note d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
+  <svg class="info-circle svg-inline callout-icon me-2 mb-3"  xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1018 0A9 9 0 003 12"/><path d="M12 9h.01"/><path d="M11 12h1v4h1"/></svg>
+  <div class="callout-content">
+    <div class="callout-title">
+        <p>Configurações de Implantação</p>
+
+      </div>
+    <div class="callout-body">
+      <ul>
+<li><strong>Comando de Construção:</strong> <code>hyas build</code> or <code>npm run build</code></li>
+<li><strong>Diretório de Publicação:</strong> <code>public</code></li>
+</ul>
+
+    </div>
+  </div>
+</div>
+
+Outros hosts exigirão que você <a href="#section-3">construa seu site localmente</a> e implante usando a linha de comando.</p>
+</li>
+</ol>
+<br>
+<h2 id="section-3">Construindo Seu Site Localmente<a href="#section-3" class="anchor" aria-hidden="true">#</a> </h2>
+<p>Muitos hosts, como Netlify e Vercel, construirão seu site para você e, em seguida, publicarão essa saída de construção na web. No entanto, alguns sites exigirão que você construa localmente e, em seguida, execute um comando de implantação ou faça upload da saída de construção.</p>
+<p>Você também pode desejar construir localmente para <a href="#section-4">visualizar seu site</a> ou para identificar quaisquer erros e avisos em seu próprio ambiente.</p>
+<p>Execute o comando <code>npm run build</code> para construir seu site Hyas.</p>
+
+
+
+
+
+
+<nav>
+  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+  <button data-toggle-tab="npm" class="nav-link active" id="tabs-cli-host-global-0-tab" data-bs-toggle="tab" data-bs-target="#tabs-cli-host-global-0" type="button" role="tab" aria-controls="tabs-cli-host-global-0" aria-selected="true">
+      npm</button>
+  <button data-toggle-tab="pnpm" class="nav-link" id="tabs-cli-host-global-1-tab" data-bs-toggle="tab" data-bs-target="#tabs-cli-host-global-1" type="button" role="tab" aria-controls="tabs-cli-host-global-1" aria-selected="true">
+      pnpm</button>
+  <button data-toggle-tab="yarn" class="nav-link" id="tabs-cli-host-global-2-tab" data-bs-toggle="tab" data-bs-target="#tabs-cli-host-global-2" type="button" role="tab" aria-controls="tabs-cli-host-global-2" aria-selected="true">
+      Yarn</button>
+  </div>
+</nav>
+
+<div class="tab-content" id="nav-tabContent">
+  <div data-pane="npm" class="tab-pane fade show active" id="tabs-cli-host-global-0" role="tabpanel" aria-labelledby="tabs-cli-host-global-0-tab" tabindex="0">
+      
+
+
+<div class="expressive-code">
+  <figure class="frame is-terminal not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">npm run build</span></span></code></pre></div>
+  </figure>
+</div>
+</div>
+  <div data-pane="pnpm" class="tab-pane fade" id="tabs-cli-host-global-1" role="tabpanel" aria-labelledby="tabs-cli-host-global-1-tab" tabindex="0">
+      
+
+
+<div class="expressive-code">
+  <figure class="frame is-terminal not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pnpm run build</span></span></code></pre></div>
+  </figure>
+</div>
+</div>
+  <div data-pane="yarn" class="tab-pane fade" id="tabs-cli-host-global-2" role="tabpanel" aria-labelledby="tabs-cli-host-global-2-tab" tabindex="0">
+      
+
+
+<div class="expressive-code">
+  <figure class="frame is-terminal not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yarn run build</span></span></code></pre></div>
+  </figure>
+</div>
+</div>
+  </div>
+
+<p>Por padrão, a saída de construção será colocada em <code>public/</code>. Essa localização pode ser alterada usando a <a href="https://gohugo.io/getting-started/configuration/#publishdir">opção de configuração <code>publishDir</code>.</a>.</p>
+<h2 id="section-4">Visualizando Seu Site Localmente<a href="#section-4" class="anchor" aria-hidden="true">#</a> </h2>
+<p>Ao lado do servidor de desenvolvimento integrado do Hugo, o Hyas vem com o <a href="https://github.com/http-party/http-server">http-server</a>, um servidor HTTP estático simples e sem configuração.</p>
+<p>Execute o comando <code>npm run preview</code> para visualizar seu site Hyas.</p>
+
+
+
+
+
+
+<nav>
+  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+  <button data-toggle-tab="npm" class="nav-link active" id="tabs-cli-host-global-0-tab" data-bs-toggle="tab" data-bs-target="#tabs-cli-host-global-0" type="button" role="tab" aria-controls="tabs-cli-host-global-0" aria-selected="true">
+      npm</button>
+  <button data-toggle-tab="pnpm" class="nav-link" id="tabs-cli-host-global-1-tab" data-bs-toggle="tab" data-bs-target="#tabs-cli-host-global-1" type="button" role="tab" aria-controls="tabs-cli-host-global-1" aria-selected="true">
+      pnpm</button>
+  <button data-toggle-tab="yarn" class="nav-link" id="tabs-cli-host-global-2-tab" data-bs-toggle="tab" data-bs-target="#tabs-cli-host-global-2" type="button" role="tab" aria-controls="tabs-cli-host-global-2" aria-selected="true">
+      Yarn</button>
+  </div>
+</nav>
+
+<div class="tab-content" id="nav-tabContent">
+  <div data-pane="npm" class="tab-pane fade show active" id="tabs-cli-host-global-0" role="tabpanel" aria-labelledby="tabs-cli-host-global-0-tab" tabindex="0">
+      
+
+
+<div class="expressive-code">
+  <figure class="frame is-terminal not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">npm run preview</span></span></code></pre></div>
+  </figure>
+</div>
+</div>
+  <div data-pane="pnpm" class="tab-pane fade" id="tabs-cli-host-global-1" role="tabpanel" aria-labelledby="tabs-cli-host-global-1-tab" tabindex="0">
+      
+
+
+<div class="expressive-code">
+  <figure class="frame is-terminal not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pnpm run preview</span></span></code></pre></div>
+  </figure>
+</div>
+</div>
+  <div data-pane="yarn" class="tab-pane fade" id="tabs-cli-host-global-2" role="tabpanel" aria-labelledby="tabs-cli-host-global-2-tab" tabindex="0">
+      
+
+
+<div class="expressive-code">
+  <figure class="frame is-terminal not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yarn run preview</span></span></code></pre></div>
+  </figure>
+</div>
+</div>
+  </div>
+
+<p>O script <code>http-server</code> sé configurado para ser executado com <a href="https://developer.mozilla.org/en-US/docs/Glossary/GZip_compression">gzip</a>, <a href="https://developer.mozilla.org/en-US/docs/Glossary/Brotli_compression">brotli</a>, e <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">CORS</a> habilitados. Essas configurações podem ser alteradas usando as <a href="https://github.com/http-party/http-server#available-options">opções disponíveis</a>.</p>
+<br>
+<hr>
+<br>
+<div class="callout callout-note d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
+  <svg class="info-circle svg-inline callout-icon me-2 mb-3"  xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1018 0A9 9 0 003 12"/><path d="M12 9h.01"/><path d="M11 12h1v4h1"/></svg>
+  <div class="callout-content">
+    <div class="callout-title">
+        <p>Como esta página foi feita</p>
+
+      </div>
+    <div class="callout-body">
+      <p>Este Callout existe com o propósito de explicar como esta página foi criada, conforme solicitado para a disciplina de TECAA.</p>
+<h4 id="seções-do-documento">Seções do Documento<a href="#seções-do-documento" class="anchor" aria-hidden="true">#</a> </h4>
+<p>Como pode ser visto na Tabela de Conteúdos disponível no lado esquerdo da página, este documento está dividido em várias seções. Isso pode ser alcançado em nosso Tema Doks usando cabeçalhos markdown, adicionando <code>#</code> antes do texto que desejo tornar um Cabeçalho. Quanto mais <code>#</code>  adicionados antes de um texto, define seu tipo. Por exemplo, <code># Header1</code>  define um cabeçalho h1, <code>## Header2</code> define um cabeçalho h2, e assim por diante. Nesta página, foi feito o seguinte:</p>
+
+
+
+<div class="expressive-code">
+  <figure class="frame not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">  ## Deployment Guides {#section-1}
+</span></span><span class="line"><span class="cl">  ## Quick Deploy Options {#section-2}
+</span></span><span class="line"><span class="cl">  ### Website UI {#section-2.1}
+</span></span><span class="line"><span class="cl">  ### CLI Deployment {#section-2.2}
+</span></span><span class="line"><span class="cl">  ## Building Your Site Locally {#section-3}
+</span></span><span class="line"><span class="cl">  ## Previewing Your Site Locally {#section-4}</span></span></code></pre></div>
+  </figure>
+</div>
+<p>Para cada seção, também foi definido um <code>{section-x}</code>. Isso foi implementado para poder referenciar essas seções em hiperlinks, para serem exploradas mais adiante.</p>
+<h4 id="quebras-temáticas-linhas-horizontais">Quebras Temáticas (Linhas Horizontais)<a href="#quebras-temáticas-linhas-horizontais" class="anchor" aria-hidden="true">#</a> </h4>
+<p>Para criar uma linha horizontal para dividir o conteúdo da página ou mesmo o Cabeçalho do texto, como pode ser visto logo após o Título principal da página, pode-se usar três ou mais hífens consecutivos, sublinhados ou asteriscos. Para esta página, <code>---</code> (três hífens consecutivos) foram usados para criar as quebras temáticas, como a seguinte:</p>
+<hr>
+<h4 id="texto-em-negrito">Texto em Negrito<a href="#texto-em-negrito" class="anchor" aria-hidden="true">#</a> </h4>
+<p>Para o texto que pode ser visto em negrito, no meio das frases, isso pode ser alcançado colocando ** antes e depois do texto desejado em negrito. Por exemplo, <strong>este</strong> está em negrito ao fazer <code>**este**</code>.</p>
+<h4 id="link-cards">Link Cards<a href="#link-cards" class="anchor" aria-hidden="true">#</a> </h4>
+<p>Para criar a <a href="#section-1">Development Guides section</a> Link-Cards e Card-Grids foram usados. Esta é a funcionalidade que nossa equipa apresentou no Hands-On para TECAA.
+Cada linha de Link-Cards foi criada usando Card-Grids, e cada coluna dessa linha criada usando Link-Cards, como pode ser visto aqui:</p>
+  <figure>
+    <img
+      srcset="data:image/webp;base64,UklGRi4AAABXRUJQVlA4ICIAAAAwAQCdASoQABAAAph8J6QAA3AA/u6wU9p1geTl0DU57sAA"
+          data-srcset="/images/linkcards_huc05325d98d02c8d0b94169474c87f3e5_30708_480x0_resize_q85_h2_lanczos_3.webp 480w,/images/linkcards_huc05325d98d02c8d0b94169474c87f3e5_30708_576x0_resize_q85_h2_lanczos_3.webp 576w,/images/linkcards_huc05325d98d02c8d0b94169474c87f3e5_30708_625x0_resize_q85_h2_lanczos_3.webp 625w"
+          data-sizes="auto"
+      src="/images/linkcards_huc05325d98d02c8d0b94169474c87f3e5_30708_480x0_resize_q85_bgffffff_lanczos_3.jpg"
+      width="625"
+      height="616"
+      decoding="async"
+      fetchpriority="auto"
+      loading="lazy"
+      alt=""
+      class="lazyload blur-up"
+    >
+  </figure>
+<h4 id="hiperligações">Hiperligações<a href="#hiperligações" class="anchor" aria-hidden="true">#</a> </h4>
+<p>Todas as hiperligações encontradas nesta página foram feitos usando o que é padrão para arquivos markdown, <code>[Link texto](URL)</code>.
+Aqui, as hiperligações foram usadas de duas maneiras diferentes:</p>
+<ol>
+<li>
+<p>Para redirecionar para outra página ou site, por exemplo, para a Documentação do Hyas, o seguinte foi feito:<br> <code>[Netlify](https://docs.gethyas.com/guides/deploy/netlify/)</code></p>
+</li>
+<li>
+<p>Para redirecionar para uma seção dentro desta página, o texto adicionado aos títulos, <code>{section-x}</code>, foi usado:<br> <code>[preview your site](#section-4)</code></p>
+</li>
+</ol>
+<h4 id="listas">Listas<a href="#listas" class="anchor" aria-hidden="true">#</a> </h4>
+<p>Esta página apresenta dois tipos diferentes de listas, ordenadas e não ordenadas.
+Para criar as listas ordenadas, presentes em muitas das seções desta página, o seguinte foi feito:</p>
+
+
+
+<div class="expressive-code">
+  <figure class="frame not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">  <span class="k">1.</span> Item 1
+</span></span><span class="line"><span class="cl">  <span class="k">2.</span> Item 2
+</span></span><span class="line"><span class="cl">  3. Item 3</span></span></code></pre></div>
+  </figure>
+</div>
+<p>Para criar as listas não ordenadas, em vez de usar números seguidos de um ponto, um hífen foi usado, assim como acontece nos arquivos markdown:</p>
+
+
+
+<div class="expressive-code">
+  <figure class="frame not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">  <span class="k">-</span> Item 1
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> Item 2
+</span></span><span class="line"><span class="cl">  - Item 3</span></span></code></pre></div>
+  </figure>
+</div>
+<h4 id="callouts">Callouts<a href="#callouts" class="anchor" aria-hidden="true">#</a> </h4>
+<p>O uso de Callouts foi uma ideia trazida de um Hands-On apresentado por outra equipa de TECAA. Embora os Callouts não sejam criados da mesma forma neste site com tema Doks, eles fazem o mesmo e parecem semelhantes.
+Para criar os Callouts usados nesta página, incluindo o usado para esta seção, o seguinte foi feito:</p>
+  <figure>
+    <img
+      srcset="data:image/webp;base64,UklGRiYAAABXRUJQVlA4IBoAAAAwAQCdASoQAAMABJh8J6QAA3AA/u8IWwAAAA=="
+          data-srcset="/images/callout_hu9d7bcc147cd1cd549835ebda9a610080_10542_480x0_resize_q85_h2_lanczos_3.webp 480w,/images/callout_hu9d7bcc147cd1cd549835ebda9a610080_10542_576x0_resize_q85_h2_lanczos_3.webp 576w,/images/callout_hu9d7bcc147cd1cd549835ebda9a610080_10542_768x0_resize_q85_h2_lanczos_3.webp 768w,/images/callout_hu9d7bcc147cd1cd549835ebda9a610080_10542_792x0_resize_q85_h2_lanczos_3.webp 792w"
+          data-sizes="auto"
+      src="/images/callout_hu9d7bcc147cd1cd549835ebda9a610080_10542_480x0_resize_q85_bgffffff_lanczos_3.jpg"
+      width="792"
+      height="150"
+      decoding="async"
+      fetchpriority="auto"
+      loading="lazy"
+      alt=""
+      class="lazyload blur-up"
+    >
+  </figure>
+<p>Ao alterar os seus atributos podemos criar outros tipos de Callouts, alterando a sua cor, título e até mesmo o ícone associado, como pode ser visto nos exemplos abaixo:</p>
+  <figure>
+    <img
+      srcset="data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoQAA8AAph8JwBOgCHhZrwYIAD&#43;u1/NTCWKpNEXOloM3p6lAotMw&#43;gAAAA="
+          data-srcset="/images/callout_examples_hu917ae8dea4d4e8f65c92b3b2bd473007_48287_480x0_resize_q85_h2_lanczos_3.webp 480w,/images/callout_examples_hu917ae8dea4d4e8f65c92b3b2bd473007_48287_576x0_resize_q85_h2_lanczos_3.webp 576w,/images/callout_examples_hu917ae8dea4d4e8f65c92b3b2bd473007_48287_768x0_resize_q85_h2_lanczos_3.webp 768w,/images/callout_examples_hu917ae8dea4d4e8f65c92b3b2bd473007_48287_831x0_resize_q85_h2_lanczos_3.webp 831w"
+          data-sizes="auto"
+      src="/images/callout_examples_hu917ae8dea4d4e8f65c92b3b2bd473007_48287_480x0_resize_q85_bgffffff_lanczos_3.jpg"
+      width="831"
+      height="788"
+      decoding="async"
+      fetchpriority="auto"
+      loading="lazy"
+      alt=""
+      class="lazyload blur-up"
+    >
+  </figure>
+<h4 id="formatação-de-código-inline">Formatação de Código Inline<a href="#formatação-de-código-inline" class="anchor" aria-hidden="true">#</a> </h4>
+<p>Ao longo desta página, podem ser vistos dois tipos diferentes de formatação para destacar comandos e códigos bash.<br>
+Para pequenos trechos de código ou comandos que desejo exibir no meio de uma frase, usei ´ entre o texto para formatar.
+Por exemplo, para obter <code>npm run preview</code>, fiz o seguinte com backticks:</p>
+
+
+
+<div class="expressive-code">
+  <figure class="frame not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">  ´npm run preview´</span></span></code></pre></div>
+  </figure>
+</div>
+<p>Para pedaços maiores de código ou comandos e para criar uma caixa maior como pode ser visto no exemplo acima, existem dois estilos diferentes que podem ser implementados.
+Para criar uma caixa semelhante a uma linha de comando bash, fiz o seguinte usando três backticks:</p>
+
+
+
+<div class="expressive-code">
+  <figure class="frame not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">  ```bash
+</span></span><span class="line"><span class="cl">    Text Here
+</span></span><span class="line"><span class="cl">  ```</span></span></code></pre></div>
+  </figure>
+</div>
+<p>This results in:</p>
+
+
+
+<div class="expressive-code">
+  <figure class="frame is-terminal not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">  Text Here</span></span></code></pre></div>
+  </figure>
+</div>
+<p>Para criar uma caixa que se assemelhe e funcione como um arquivo markdown, como a que estou usando aqui, substituí a opção &ldquo;bash&rdquo; na fórmula por &ldquo;markdown&rdquo;:</p>
+
+
+
+<div class="expressive-code">
+  <figure class="frame not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">  ```markdown
+</span></span><span class="line"><span class="cl">    Text Here
+</span></span><span class="line"><span class="cl">  ```</span></span></code></pre></div>
+  </figure>
+</div>
+<p>Resultando em:</p>
+
+
+
+<div class="expressive-code">
+  <figure class="frame not-content">
+  <figcaption class="header">
+    <span class="title"></span>
+  </figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">  Text Here</span></span></code></pre></div>
+  </figure>
+</div>
+<h4 id="abas">Abas<a href="#abas" class="anchor" aria-hidden="true">#</a> </h4>
+<p>As abas foram usadas ao longo da página para mostrar os mesmos comandos para diferentes terminais (linhas de comando).
+Para criar as abas, usei os shortcodes &ldquo;tabs&rdquo; e &ldquo;tab&rdquo;, como pode ser visto no seguinte exemplo:</p>
+  <figure>
+    <img
+      srcset="data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAQAwCdASoQABgAP1mKtkswpKKYBAELFYT0gAA9ZiroCWAA/uueAcCulokvyQqwD2notQAA"
+          data-srcset="/images/tabs_hu4de74616ae31f557ea23857adf4c8e95_14801_382x0_resize_q85_h2_lanczos_3.webp 382w"
+          data-sizes="auto"
+      src="/images/tabs_hu4de74616ae31f557ea23857adf4c8e95_14801_382x0_resize_q85_bgffffff_lanczos_3.jpg"
+      width="382"
+      height="572"
+      decoding="async"
+      fetchpriority="auto"
+      loading="lazy"
+      alt=""
+      class="lazyload blur-up"
+    >
+  </figure>  
+<h4 id="images">Images<a href="#images" class="anchor" aria-hidden="true">#</a> </h4>
+<p>As imagens usadas ao longo da página e no restante do site estão armazenadas na pasta de &ldquo;assets&rdquo; de nosso projeto:</p>
+  <figure>
+    <img
+      srcset="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAABwAwCdASoQABoAP1mMtkswpKKYBAELFYT0gGN6FoUz2ZR4TIAA/uwx0250ceOb5jvYnj0EnK2GFu5jkUTfZ6DnsAAAAA=="
+          data-srcset="/images/assets_hu7ad533b00071a9ec3191075c5066042d_15268_370x0_resize_q85_h2_lanczos_3.webp 370w"
+          data-sizes="auto"
+      src="/images/assets_hu7ad533b00071a9ec3191075c5066042d_15268_370x0_resize_q85_bgffffff_lanczos_3.jpg"
+      width="370"
+      height="602"
+      decoding="async"
+      fetchpriority="auto"
+      loading="lazy"
+      alt=""
+      class="lazyload blur-up"
+    >
+  </figure>
+<p>O arquivo <code>module.toml</code> acompanha a pasta de &ldquo;assets&rdquo;:</p>
+  <figure>
+    <img
+      srcset="data:image/webp;base64,UklGRiwAAABXRUJQVlA4ICAAAAAwAQCdASoQAAYAAph8J6QAA3AA/u8J9K3SGbTdB8AAAA=="
+          data-srcset="/images/moduletoml_huacee0ce86536c02d894615877068fc1b_2709_271x0_resize_q85_h2_lanczos_3.webp 271w"
+          data-sizes="auto"
+      src="/images/moduletoml_huacee0ce86536c02d894615877068fc1b_2709_271x0_resize_q85_bgffffff_lanczos_3.jpg"
+      width="271"
+      height="99"
+      decoding="async"
+      fetchpriority="auto"
+      loading="lazy"
+      alt=""
+      class="lazyload blur-up"
+    >
+  </figure>
+<p>IAs imagens foram usadas apenas nesta página na seção atual para mostrar linhas de código. As imagens foram implementadas da forma que pode ser vista aqui:</p>
+  <figure>
+    <img
+      srcset="data:image/webp;base64,UklGRi4AAABXRUJQVlA4ICIAAACwAQCdASoQAAYAAph8J6QAAvh55poAAP7jhEzzRekAAAAA"
+          data-srcset="/images/imageexample_huc70ec826f0ad042e52c68ffcc335df6b_3292_331x0_resize_q85_h2_lanczos_3.webp 331w"
+          data-sizes="auto"
+      src="/images/imageexample_huc70ec826f0ad042e52c68ffcc335df6b_3292_331x0_resize_q85_bgffffff_lanczos_3.jpg"
+      width="331"
+      height="131"
+      decoding="async"
+      fetchpriority="auto"
+      loading="lazy"
+      alt=""
+      class="lazyload blur-up"
+    >
+  </figure>
+
+    </div>
+  </div>
+</div>
+
+<br>
+<hr>
+
+			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
+				</div>
+			<div class="page-nav d-flex flex-column flex-sm-row">
+	
+	<div class="card w-100">
+			<div class="card-body d-flex">
+				<div class="d-flex flex-column justify-content-center">
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-left" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+						<path d="M5 12l14 0"></path>
+						<path d="M5 12l6 6"></path>
+						<path d="M5 12l6 -6"></path>
+				 	</svg>
+				</div>
+				<div class="d-flex flex-column">
+					<div class="text-body-secondary">Prev</div>
+					<a href="/pt-br/docs/starthere/por-onde-come%C3%A7ar/" class="stretched-link text-reset text-decoration-none">Por Onde Começar</a>
+				</div>
+			</div>
+		</div>
+	<div class="m-2"></div>
+	<div class="card text-end w-100">
+			<div class="card-body d-flex justify-content-end">
+				<div class="d-flex flex-column">
+					<div class="text-body-secondary">Next</div>
+					<a href="/pt-br/docs/guides/customiza%C3%A7%C3%A3o/" class="stretched-link text-reset text-decoration-none">Customização</a>
+				</div>
+				<div class="d-flex flex-column justify-content-center">
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+						<path d="M5 12l14 0"></path>
+						<path d="M13 18l6 -6"></path>
+						<path d="M13 6l6 6"></path>
+					</svg>
+				</div>
+			</div>
+		</div>
+	</div>
+
+			
+		</main>
+		
+	</div>
+
+      
+      </div>
+    </div>
+    
+    
+    <footer class="footer text-muted">
+  <div class="container-lg">
+    <div class="row">
+      <div class="col-lg-8 text-center text-lg-start">
+        <ul class="list-inline">
+          <li class="list-inline-item"><a class="text-muted" href="/pt-br/privacy/">Política de Privacidade</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-8 text-center text-lg-end">
+        <ul class="list-inline">
+          <li class="list-inline-item">Trazido até si por <a class="text-muted" href="https://gethyas.com/">Hyas</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+<script async
+  src="/js/app.e45b900ac9f292b421b5143e655e0497cefe3534ae28918d054c8024fb6734f4.js"
+  integrity="sha256-5FuQCsnykrQhtRQ&#43;ZV4El87&#43;NTSuKJGNBUyAJPtnNPQ=">
+</script>
+
+
+
+
+
+<script async
+  src="/js/flexsearch.pt-br.7ce963625bd3cf6bc757de95a36dd2f0a15e3a77bc362a6b76479c831e8804b9.js"
+  integrity="sha256-fOljYlvTz2vHV96Vo23S8KFeOne8Niprdkecgx6IBLk=">
+</script>
+<script async
+  src="/js/search-modal.4bf222a8ac69d50bbdf265c8d3e25dd4693382bf59af91cbfe3268b8aa8079eb.js"
+  integrity="sha256-S/IiqKxp1Qu98mXI0&#43;Jd1Gkzgr9Zr5HL/jJouKqAees=">
+</script>
+
+    
+  </body>
+</html>
